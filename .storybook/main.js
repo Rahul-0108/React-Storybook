@@ -6,6 +6,8 @@ const config = {
     "@storybook/addon-essentials",
     "@storybook/preset-create-react-app",
     "@storybook/addon-interactions",
+    "@storybook/addon-viewport", // to check preview on different devices,
+    '@storybook/addon-a11y'
   ],
   framework: {
     name: "@storybook/react-webpack5",
